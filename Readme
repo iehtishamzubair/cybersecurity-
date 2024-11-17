@@ -1,0 +1,52 @@
+Cybersecurity Week 1 Task
+
+Name: Ehtisham Zubair
+ID: DHC-117
+
+Summary of Key Cybersecurity Concepts:
+						
+
+i. Confidentiality: 
+Confidentiality means keeping important information private and making sure that only the right people can see it. 
+This can be done by encrypting data, using strong passwords, and setting up controls so only certain people can access the information.
+
+ii. Integrity: 
+Integrity is about keeping data accurate and trustworthy. It means making sure data isn't changed or messed with by people who don't have permission. 
+Tools like checks, version tracking, and data checks are used to keep data the same unless it is meant to be changed.
+
+iii. Availability: 
+Availability means making sure that information and systems can be used whenever they are needed by the right people. It is protected through things like having backup copies, extra systems for support, and designing systems to handle a lot of users and prevent problems like DDoS attacks.
+
+Types of Cyber Attacks:
+
+i. Phishing:
+This type of attack involves fake emails, messages, or websites that try to fool people into giving away important information, like passwords or bank details. Phishing often looks like it comes from real sources, so it’s important to check any unexpected requests carefully.
+ 	 				
+ii. Malware:
+Malware, or harmful software, is any program created to damage or take advantage of computers, networks, or data. 
+Common types of malware are viruses, ransomware, and spyware. Malware can mess up how systems work, steal information, or block users from accessing their own systems.
+
+
+iii. Denial-of-Service (DoS) Attacks:
+In a DoS attack, the attacker overloads a system or network with too much traffic, causing it to slow down or stop working for real users. 
+A DDoS attack is even tougher to deal with because it uses many sources to flood the system with traffic.
+            
+
+Importance of Network Security, Data Protection, and User Authentication
+
+i. Network Security:  
+Protecting a network from unauthorized access, misuse, or attacks is critical to keeping an organization's data and systems safe. 
+Effective network security uses firewalls, intrusion detection systems, VPNs (Virtual Private Networks), and regular monitoring to detect and prevent threats.
+
+
+ii. Data Protection: 
+Data protection involves implementing measures to keep safe sensitive data from unauthorized access, breaches, and loss. This can include encryption, 
+secure backups, and strict access controls. Strong data protection practices help build trust and comply with regulations, such as GDPR or data privacy laws.
+
+iii. User Authentication: 
+Authentication is the process of verifying the identity of users before granting access to a system. It often involves passwords, 
+but more robust methods like two-factor authentication (2FA) and biometric verification (fingerprints, facial recognition) add extra layers of security. 
+Proper user authentication ensures that only authorized users can access sensitive information and systems, reducing the risk of data breaches.
+
+
+
