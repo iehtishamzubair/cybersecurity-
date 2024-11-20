@@ -1,0 +1,11 @@
+Hashing:
+
+i. Hashing converts data into a fixed-size string of characters, which is irreversible (one-way process).
+ii. It is crucial for securely storing passwords because even if the database is compromised, the attacker does not immediately have access to the actual passwords.
+
+Salting:
+
+i. Salting involves adding a unique random string to each password before hashing.
+ii. This prevents attackers from using precomputed tables (like rainbow tables) to quickly find matches.
+iii. Even if two users have the same password, salting ensures that their hashes are different.
+iv. It makes brute-force attacks more difficult and time-consuming.
