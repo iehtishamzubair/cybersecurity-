@@ -1,0 +1,74 @@
+Common Security Threats in Web Applications OWASP
+1- Broken access control
+2- Cryptographic failures
+3- Injection
+4- Insecure design
+5- Security misconfiguration
+6- Vulnerable and outdated components
+7- Identification and authentication failures 
+8- Software and data integrity failures
+9- Security logging and monitoring failures
+10- Server-side request forgery 
+
+Summary of 5 Security Threats
+
+1. Broken Access Control:
+This happens when users can access things they shouldn’t, like private files or admin features. It usually occurs because access rules are not set up correctly.
+Example: A regular user can change the URL from /user/settings to /admin/settings and access the admin panel because the system doesn’t check their permission.
+
+2. Cryptographic Failures:
+This occurs when sensitive data, like passwords or credit card numbers, isn’t properly protected. It might not be encrypted or could use outdated methods.
+Example: A website stores user passwords in plain text. If the database is hacked, all passwords are exposed because they weren’t encrypted.
+
+3. Injection:
+This happens when an attacker tricks the system by sending harmful code through input fields (like a login form). The system mistakenly runs this code.
+Example: An attacker types 1 OR 1=1 into a login form’s username field, bypassing security and logging into someone else’s account.
+
+4. Insecure Design:
+This happens when a system is poorly planned or lacks security features from the beginning. It leaves openings for attackers to exploit.
+Example: A web application doesn’t limit how many times someone can try entering a password, making it easy for attackers to guess passwords using automated tools.
+
+5. Security Misconfiguration
+This occurs when security settings are missing, incorrect, or left at default. It makes it easier for attackers to exploit the system.
+Example: A website is running with default admin credentials like admin/admin, which attackers can easily guess and use to take control.
+
+6. Vulnerable and Outdated Components:
+This happens when a system uses old or unpatched software, making it easy for attackers to exploit known weaknesses.
+Example: A website uses an old version of a plugin with a known vulnerability. Hackers exploit this to gain unauthorized access to the system.
+
+7. Identification and Authentication Failures:
+This occurs when a system doesn’t properly verify who the user is or doesn’t protect login processes, making it easier for attackers to break in.
+Example: A website allows weak passwords like "123456," or doesn’t lock accounts after multiple wrong login attempts, letting attackers guess passwords easily.
+
+Software and Data Integrity Failures:
+This happens when systems don’t verify the trustworthiness of software updates or data, allowing attackers to inject malicious content.
+Example: A web application automatically installs updates from an unverified source. An attacker could replace the update with malware that compromises the system.
+
+9. Security Logging and Monitoring Failures:
+This occurs when a system doesn’t record or monitor suspicious activities, making it hard to detect or respond to attacks.
+Example: An attacker tries thousands of passwords to hack an account, but the system doesn’t log these attempts or alert administrators, allowing the attack to continue unnoticed.
+
+10- 10. Server-Side Request Forgery (SSRF):
+This happens when a server fetches data from another server based on user input, but attackers manipulate the request to access internal systems.
+Example: An attacker tricks a website into fetching internal server details (like sensitive files or databases) by submitting a malicious URL in a form field.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
